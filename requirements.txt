@@ -1,0 +1,24 @@
+# Core
+numpy>=1.24
+pandas>=2.0
+torch>=2.0
+
+# Frozen CLIP backbone
+transformers>=4.30
+Pillow>=10.0
+
+# Geocell construction (Natural Earth boundaries, spatial joins, clustering)
+geopandas>=0.14
+shapely>=2.0
+scikit-learn>=1.3
+
+# Visualization
+matplotlib>=3.7
+
+# NOTE: these are sensible minimums, not pinned-from-a-real-run versions.
+# After a successful full run on Kaggle, replace this file's contents with
+# the output of `pip freeze` from that environment for real reproducibility.
+
+# NOTE: jupyter/ipykernel are intentionally omitted -- Kaggle and Colab
+# both ship Jupyter already. Add `jupyter` here only if you plan to run
+# this notebook on a bare local machine outside either platform.
