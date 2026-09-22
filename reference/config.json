@@ -1,5 +1,5 @@
 {
   "backbone": "openai/clip-vit-large-patch14-336",
   "embedding_dim": 768,
-  "num_geocells": 2005,
+  "num_geocells": 2005
 }
